@@ -1,0 +1,527 @@
+/* ========== ベース ========== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Shippori Mincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN",
+    serif;
+  color: #2a2a2a;
+  background: #f5f1ea;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ========== ページコンテナ（PCでも中央寄せ540px） ========== */
+.page {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fbf8f3;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* ========== ヘッダー ========== */
+.header {
+  background: linear-gradient(135deg, #3d4a3a 0%, #4a5b46 100%);
+  color: #fff;
+  text-align: center;
+  padding: 28px 20px 22px;
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+}
+.logo-sub {
+  font-size: 12px;
+  opacity: 0.88;
+  letter-spacing: 0.05em;
+}
+
+/* ========== ヒーロー ========== */
+.hero {
+  width: 100%;
+}
+.hero-img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1002 / 522;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* ========== セクションタイトル ========== */
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #3d4a3a;
+  padding: 36px 20px 20px;
+  letter-spacing: 0.05em;
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #a48b5e;
+  margin: 12px auto 0;
+}
+
+/* ========== プランカード v2（写真＋テキスト下置き） ========== */
+.plans {
+  padding: 0 0 24px;
+}
+.plan-card-v2 {
+  background: #fff;
+  margin: 0 16px 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(60, 50, 30, 0.08);
+  border: 1px solid rgba(164, 139, 94, 0.15);
+}
+.plan-img {
+  width: 100%;
+  display: block;
+}
+.plan-info {
+  padding: 20px 22px 24px;
+  text-align: center;
+}
+.plan-card-v2 .plan-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #3d4a3a;
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+}
+.plan-card-v2 .plan-price {
+  font-size: 26px;
+  font-weight: 700;
+  color: #a48b5e;
+  margin: 8px 0 14px;
+  letter-spacing: 0.03em;
+}
+.plan-card-v2 .plan-price span {
+  font-size: 13px;
+  color: #6b6b6b;
+  margin-left: 4px;
+  font-weight: 400;
+}
+.plan-card-v2 .plan-desc {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.85;
+  text-align: left;
+}
+
+/* ========== ステップ ========== */
+.steps {
+  padding: 0 20px 32px;
+}
+.step-list {
+  list-style: none;
+}
+.step-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fff;
+  padding: 16px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(60, 50, 30, 0.05);
+}
+.step-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #3d4a3a;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.step-item h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3d4a3a;
+  margin-bottom: 4px;
+}
+.step-item p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* ========== 郵送プラン（テキストのみのカード） ========== */
+.postal-plans {
+  padding: 0 16px 32px;
+}
+.plan-card {
+  background: #fff;
+  padding: 24px 22px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(60, 50, 30, 0.06);
+  border: 1px solid rgba(164, 139, 94, 0.15);
+}
+.plan-card .plan-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #3d4a3a;
+  margin-bottom: 10px;
+}
+.plan-card .plan-price {
+  font-size: 26px;
+  font-weight: 700;
+  color: #a48b5e;
+  margin: 6px 0 12px;
+}
+.plan-card .plan-price span {
+  font-size: 13px;
+  color: #6b6b6b;
+  margin-left: 4px;
+  font-weight: 400;
+}
+.plan-card .plan-desc {
+  font-size: 13px;
+  color: #555;
+  text-align: left;
+  line-height: 1.85;
+}
+
+/* ========== お問い合わせ ========== */
+.contact {
+  position: relative;
+  width: 100%;
+  margin-top: 16px;
+  overflow: hidden;
+}
+.contact-bg {
+  width: 100%;
+  display: block;
+  filter: brightness(0.5);
+}
+.contact-inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.contact-inner .section-title {
+  color: #fff;
+  padding: 0 0 14px;
+}
+.contact-inner .section-title::after {
+  background: #fff;
+}
+.contact-tel {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 8px 0;
+  letter-spacing: 0.05em;
+}
+.contact-tel a {
+  color: #fff;
+}
+.contact-hours,
+.contact-area {
+  font-size: 13px;
+  margin: 4px 0;
+  opacity: 0.95;
+}
+
+/* ========== FAQ ========== */
+.faq {
+  padding: 0 16px;
+}
+.faq .faq {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(60, 50, 30, 0.04);
+  padding: 14px 18px;
+}
+.faq-q {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3d4a3a;
+}
+.faq-a {
+  font-size: 13px;
+  color: #555;
+  margin-top: 8px;
+  display: none;
+  line-height: 1.85;
+}
+.faq .faq.open .faq-a {
+  display: block;
+}
+
+/* ========== フッター ========== */
+.footer {
+  background: #3d4a3a;
+  color: #fff;
+  text-align: center;
+  padding: 28px 20px 24px;
+  margin-top: 32px;
+}
+.footer p {
+  font-size: 12px;
+  margin: 4px 0;
+  letter-spacing: 0.03em;
+}
+.footer strong {
+  font-size: 15px;
+}
+
+/* ========== スマホ調整 ========== */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 22px;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+  .contact-tel {
+    font-size: 22px;
+  }
+  .plan-card-v2 .plan-price,
+  .plan-card .plan-price {
+    font-size: 23px;
+  }
+}
+
+.hero-cta {
+  background: linear-gradient(180deg, #fbf8f3 0%, #f5ede0 100%);
+  padding: 28px 24px 32px;
+  text-align: center;
+  border-bottom: 1px solid rgba(164, 139, 94, 0.18);
+}
+.hero-cta-catch {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3d4a3a;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.hero-cta-sub {
+  font-size: 12px;
+  color: #6b6b6b;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+.hero-cta-tel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #3d4a3a, #4a5b46);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(61, 74, 58, 0.3);
+  margin-bottom: 14px;
+}
+.hero-cta-hours {
+  font-size: 11px;
+  color: #6b6b6b;
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+}
+.plan-card-v2 {
+  display: block !important;
+}
+.plan-card-v2 .plan-info {
+  padding: 24px 22px 18px !important;
+  text-align: center !important;
+  display: block !important;
+  border-bottom: 1px solid rgba(164, 139, 94, 0.12);
+}
+.plan-card-v2 .plan-img {
+  width: 100% !important;
+  display: block !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.hero {
+  position: relative;
+}
+.hero-wrap {
+  position: relative;
+  width: 100%;
+}
+.hero-price-badge {
+  position: absolute;
+  right: 18px;
+  bottom: 38%;
+  background: linear-gradient(135deg, #a48b5e, #c2a772);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  transform: rotate(-3deg);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  z-index: 5;
+}
+.hero-price-num {
+  font-size: 26px;
+  font-weight: 800;
+}
+.hero-price-yen {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+.hero-price-tax {
+  display: block;
+  font-size: 10px;
+  margin-top: 2px;
+  letter-spacing: 0.05em;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 8px 0 14px;
+  flex-wrap: wrap;
+}
+.cta-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 140px;
+  max-width: 200px;
+  padding: 14px 12px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+.cta-btn-tel {
+  background: linear-gradient(135deg, #3d4a3a, #4a5b46);
+}
+.cta-btn-line {
+  background: linear-gradient(135deg, #06c755, #05a847);
+}
+.cta-btn-icon {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.cta-btn-label {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+}
+.cta-btn-sub {
+  font-size: 12px;
+  opacity: 0.95;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.contact {
+  position: relative;
+  background: linear-gradient(180deg, #3d4a3a 0%, #2e3a2c 100%);
+  margin-top: 16px;
+  padding: 40px 24px 44px;
+  overflow: hidden;
+}
+.contact-inner {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.contact-inner .section-title {
+  color: #fff;
+  padding: 0 0 14px;
+}
+.contact-inner .section-title::after {
+  background: #a48b5e;
+}
+.contact-lead {
+  font-size: 14px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.92);
+  margin-bottom: 20px;
+}
+.cta-buttons-contact {
+  margin-bottom: 18px;
+}
+.contact-hours,
+.contact-area {
+  font-size: 12px;
+  margin: 4px 0;
+  color: rgba(255, 255, 255, 0.88);
+  letter-spacing: 0.05em;
+}
+.plan-img-wrap {
+  position: relative;
+  display: none;
+  width: 100%;
+}
+.step-flow {
+  display: block;
+  margin: 24px auto 0;
+  max-width: 480px;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+.step-flow img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.plan-price-overlay {
+  position: absolute;
+  left: 50%;
+  bottom: 51%;
+  transform: translateX(-50%);
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  font-family: "Shippori Mincho", serif;
+  line-height: 1;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  white-space: nowrap;
+}
+.plan-price-overlay .yen-small {
+  font-size: 20px;
+  margin-left: 2px;
+  font-weight: 700;
+}
