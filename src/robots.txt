@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kotonoha-eizou.netlify.app/sitemap.xml
