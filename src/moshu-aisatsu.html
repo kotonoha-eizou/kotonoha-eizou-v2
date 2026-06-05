@@ -61,6 +61,14 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
 .rel-card-body{padding:12px 14px;}
 .rel-card-title{font-size:14px;font-weight:700;color:#1a3a5c;margin:0 0 4px;line-height:1.4;}
 .rel-card-desc{font-size:12px;color:#666;margin:0;}
+
+.cta-box-new{display:flex;align-items:stretch;border-radius:10px;overflow:hidden;margin:40px 0;box-shadow:0 2px 12px rgba(0,0,0,.1);}
+.cta-box-new .cta-img{width:160px;min-width:160px;object-fit:cover;display:block;}
+.cta-box-new .cta-content{background:#1a3a5c;color:#fff;padding:24px 28px;flex:1;display:flex;flex-direction:column;justify-content:center;}
+.cta-box-new h3{margin:0 0 10px;font-size:19px;}
+.cta-box-new p{margin:0 0 16px;font-size:14px;opacity:0.9;}
+.cta-box-new a{display:inline-block;background:#ff8c42;color:#fff;text-decoration:none;padding:12px 28px;border-radius:6px;font-weight:700;font-size:15px;align-self:flex-start;}
+@media(max-width:480px){.cta-box-new{flex-direction:column;}.cta-box-new .cta-img{width:100%;height:160px;min-width:unset;}}
 </style>
 </head>
 <body>
@@ -171,11 +179,14 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
     どうしても挨拶が難しい場合、生前に故人本人がメッセージ動画を残しておくと、故人の声で参列者へ感謝を伝えることができます。喪主の負担も軽くなり、参列者にとっても忘れがたい時間になります。
   </div>
 
-  <div class="cta-box">
-    <p class="cta-title">想いを「声と表情」でも残しませんか？</p>
+  <div class="cta-box-new">
+  <img class="cta-img" src="https://storage.googleapis.com/studio-design-asset-files/projects/7kad3om6q3/s-1002x1632_v-fms_webp_38814679-8812-442a-9429-9c9be0d3472e.webp" alt="ひととき映像サービス">
+  <div class="cta-content">
+    <h3>想いを「声と表情」でも残しませんか？</h3>
     <p>故人の言葉を動画で残すことで、葬儀の挨拶もぐっと心に残るものになります。宮城県でメッセージ動画と葬式スライドショーを制作しています。修正は何度でも無料です。</p>
-    <p><a href="./" class="cta-btn">サービス内容と料金を見る →</a></p>
+    <a href="./">サービス内容と料金を見る →</a>
   </div>
+</div>
 
   <h2>よくある質問</h2>
 
@@ -195,6 +206,7 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
     <a href="./sougi-option">→ 葬儀のオプション料金相場を見る</a>
   </div>
 </article>
+
 
 <section class="rel-section">
 <h2>関連記事</h2>
@@ -220,6 +232,13 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
     <p class="rel-card-desc">金額・マナー・渡し方を解説</p>
   </div>
 </a>
+<a class="rel-card" href="/sougi-yasuku">
+  <img src="https://storage.googleapis.com/studio-design-asset-files/projects/7kad3om6q3/s-1002x1632_v-fms_webp_38814679-8812-442a-9429-9c9be0d3472e.webp" alt="葬儀費用を安く抑える方法" loading="lazy">
+  <div class="rel-card-body">
+    <p class="rel-card-title">葬儀費用を安く抑える方法</p>
+    <p class="rel-card-desc">断れるオプション・お布施・戒名の実態</p>
+  </div>
+</a>
 <a class="rel-card" href="/juzu">
   <img src="https://storage.googleapis.com/studio-design-asset-files/projects/7kad3om6q3/s-1002x1632_v-fms_webp_38814679-8812-442a-9429-9c9be0d3472e.webp" alt="数珠の選び方と使い方" loading="lazy">
   <div class="rel-card-body">
@@ -232,13 +251,6 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
   <div class="rel-card-body">
     <p class="rel-card-title">葬儀のオプション料金相場</p>
     <p class="rel-card-desc">追加費用の内訳と抑えるコツ</p>
-  </div>
-</a>
-<a class="rel-card" href="/sougi-yasuku">
-  <img src="https://storage.googleapis.com/studio-design-asset-files/projects/7kad3om6q3/s-1002x1632_v-fms_webp_38814679-8812-442a-9429-9c9be0d3472e.webp" alt="葬儀費用を安く抑える方法" loading="lazy">
-  <div class="rel-card-body">
-    <p class="rel-card-title">葬儀費用を安く抑える方法</p>
-    <p class="rel-card-desc">断れるオプション・お布施・戒名の実態</p>
   </div>
 </a>
 <a class="rel-card" href="/miyagi-sougi">
@@ -270,13 +282,6 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
   </div>
 </footer>
 
-<section style="max-width:760px;margin:0 auto;padding:24px 20px 48px;">
-  <h2 style="font-size:18px;font-weight:700;color:#1a3a5c;margin:0 0 16px;padding:10px 14px;background:#eef2f7;border-left:6px solid #1a3a5c;">関連記事</h2>
-  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
-<li><a href="/kazoku-sou" style="color:#1a3a5c;text-decoration:underline;font-size:15px;">▶ 家族葬の流れ｜通夜から火葬まで全ステップと費用相場</a></li>
-<li><a href="/sou-fukuso" style="color:#1a3a5c;text-decoration:underline;font-size:15px;">▶ 葬式の服装マナー｜男女別の正喪服・準喪服・略喪服の違い</a></li>
-<li><a href="/sougi-option" style="color:#1a3a5c;text-decoration:underline;font-size:15px;">▶ 葬儀のオプション料金相場｜追加費用の内訳と抑えるコツ</a></li>
-  </ul>
-</section>
+
 </body>
 </html>

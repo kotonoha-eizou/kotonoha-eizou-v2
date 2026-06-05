@@ -80,6 +80,14 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
 .rel-card-body{padding:12px 14px;}
 .rel-card-title{font-size:14px;font-weight:700;color:#1a3a5c;margin:0 0 4px;line-height:1.4;}
 .rel-card-desc{font-size:12px;color:#666;margin:0;}
+
+.cta-box-new{display:flex;align-items:stretch;border-radius:10px;overflow:hidden;margin:40px 0;box-shadow:0 2px 12px rgba(0,0,0,.1);}
+.cta-box-new .cta-img{width:160px;min-width:160px;object-fit:cover;display:block;}
+.cta-box-new .cta-content{background:#1a3a5c;color:#fff;padding:24px 28px;flex:1;display:flex;flex-direction:column;justify-content:center;}
+.cta-box-new h3{margin:0 0 10px;font-size:19px;}
+.cta-box-new p{margin:0 0 16px;font-size:14px;opacity:0.9;}
+.cta-box-new a{display:inline-block;background:#ff8c42;color:#fff;text-decoration:none;padding:12px 28px;border-radius:6px;font-weight:700;font-size:15px;align-self:flex-start;}
+@media(max-width:480px){.cta-box-new{flex-direction:column;}.cta-box-new .cta-img{width:100%;height:160px;min-width:unset;}}
 </style>
 </head>
 <body>
@@ -159,10 +167,13 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
 <p>ひととき映像では、宮城県を中心に闘病中・終活のメッセージ動画撮影・編集を行っています。ご自宅・施設への出張撮影に対応しており、体調に合わせて無理のないペースで進めます。</p>
 <p>撮影内容・料金など詳細はお問い合わせください。</p>
 
-<div class="cta-box">
-<h3>「伝えたい」気持ちを、映像に残しませんか</h3>
-<p>「まだ間に合ううちに」——そう思ったときが、一番早いタイミングです。宮城県内であれば出張撮影も対応しています。まずはお気軽にご相談ください。</p>
-<a href="./">サービスの詳細・お問い合わせはこちら</a>
+<div class="cta-box-new">
+  <img class="cta-img" src="https://storage.googleapis.com/studio-design-asset-files/projects/7kad3om6q3/s-1002x1632_v-fms_webp_38814679-8812-442a-9429-9c9be0d3472e.webp" alt="ひととき映像サービス">
+  <div class="cta-content">
+    <h3>ひととき映像のサービス</h3>
+    <p>「まだ間に合ううちに」——そう思ったときが、一番早いタイミングです。宮城県内であれば出張撮影も対応しています。まずはお気軽にご相談ください。</p>
+    <a href="./">サービスの詳細・お問い合わせはこちら</a>
+  </div>
 </div>
 
 <h2>よくある質問</h2>
@@ -177,6 +188,7 @@ body{margin:0;background:#fff;font-family:'Noto Sans JP',sans-serif;color:#222;l
 
 <div class="related-link">→ <a href="./yomei-kazoku">余命宣告されたら家族へ伝えたいこと｜想いを残す方法と動画メッセージのすすめ</a></div>
 </article>
+
 <section class="rel-section">
 <h2>関連記事</h2>
 <div class="rel-grid">
