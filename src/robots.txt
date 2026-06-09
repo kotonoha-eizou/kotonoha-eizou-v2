@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kotonoha-eizou.pages.dev/sitemap.xml
+Sitemap: https://hitotoki-eizou.pages.dev/sitemap.xml
