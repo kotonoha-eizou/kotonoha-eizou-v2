@@ -92,4 +92,10 @@
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
+  <url>
+    <loc>https://hitotoki-eizou.pages.dev/video-vs-slideshow</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
