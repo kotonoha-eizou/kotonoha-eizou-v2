@@ -1,101 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hitotoki-eizou.pages.dev/</loc>
+    <loc>https://hitotoki-eizou.com/</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hitotoki-eizou.pages.dev/kazoku-sou</loc>
+    <loc>https://hitotoki-eizou.com/kazoku-sou</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hitotoki-eizou.pages.dev/sougi-yasuku</loc>
+    <loc>https://hitotoki-eizou.com/sougi-yasuku</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hitotoki-eizou.pages.dev/miyagi-sougi</loc>
+    <loc>https://hitotoki-eizou.com/miyagi-sougi</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hitotoki-eizou.pages.dev/sougi-hojyokin</loc>
+    <loc>https://hitotoki-eizou.com/sougi-hojyokin</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hitotoki-eizou.pages.dev/sou-fukuso</loc>
+    <loc>https://hitotoki-eizou.com/sou-fukuso</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hitotoki-eizou.pages.dev/moshu-aisatsu</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hitotoki-eizou.pages.dev/sougi-option</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hitotoki-eizou.pages.dev/yomei-kazoku</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hitotoki-eizou.pages.dev/toubyou-kazoku</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-<url>
-<loc>https://hitotoki-eizou.pages.dev/endingnote</loc>
-<lastmod>2026-06-09</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://hitotoki-eizou.pages.dev/juzu</loc>
-<lastmod>2026-06-09</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://hitotoki-eizou.pages.dev/koden</loc>
-<lastmod>2026-06-09</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://hitotoki-eizou.pages.dev/shukatsu</loc>
-<lastmod>2026-06-09</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://hitotoki-eizou.pages.dev/slideshow-enquete</loc>
-<lastmod>2026-06-09</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-  <url>
-    <loc>https://hitotoki-eizou.pages.dev/video-vs-slideshow</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-</urlset>
