@@ -56,6 +56,7 @@
     <meta name="author" content="ひととき映像" />
     <meta name="robots" content="index, follow" />
     <meta name="format-detection" content="telephone=no" />
+    <link rel="preload" as="image" href="/images/hero.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -223,8 +224,12 @@
       <section class="hero" aria-label="メインビジュアル">
         <img
           class="hero-img"
-          src="https://storage.googleapis.com/studio-design-asset-files/projects/7kad3om6q3/s-1002x1632_v-fms_webp_38814679-8812-442a-9429-9c9be0d3472e.webp"
+          src="/images/hero.jpg"
           alt="終活の第一歩に最後に残す元気な姿 - 宮城県の終活メッセージ動画制作 ひととき映像"
+          width="1002"
+          height="522"
+          fetchpriority="high"
+          loading="eager"
         />
       </section>
 
