@@ -130,4 +130,28 @@
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/koden</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/seizensou</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/oya-shukatsu</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/slideshow-enquete</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
