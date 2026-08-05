@@ -16,4 +16,48 @@
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/ieizhashin-erabikata</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/chokusou-kasoushiki</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/shintoushiki-sougi</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/kirisutokyoushiki-sougi</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/pet-sougi-kiso</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/sougi-aisatsu-reibunshuu</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/sougi-seizenyoyaku</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+
 </urlset>
