@@ -88,4 +88,34 @@
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
-</urlset>
+<url>
+  <loc>https://hitotoki-eizou.com/seimeihoken-seikyuu</loc>
+  <lastmod>2026-08-06</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+    <loc>https://hitotoki-eizou.com/shibouhokenkin-zeikin</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/izokunenkin-shurui</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/maisouryou-sousaihi</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hitotoki-eizou.com/junkakutei-shinkoku</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  </urlset>
